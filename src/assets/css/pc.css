@@ -1,0 +1,32 @@
+/**
+ * PC端样式
+ */
+.topNav {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100px;
+  background: pink;
+}
+.topNav .topNav-logo {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.topNav .topNav-title {
+  width: 470px;
+  height: 100px;
+}
+.topNav .topNav-router {
+  display: flex;
+}
+.topNav .topNav-router .topNav-router-item {
+  margin: 0px 10px;
+}
+.left-nav {
+  width: 200px;
+  height: 100%;
+  background: pink;
+}
+/*# sourceMappingURL=pc.css.map */

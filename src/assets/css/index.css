@@ -1,0 +1,53 @@
+/**
+ * 这里使用媒体查询，当页面切换至手机端时显示手机端css
+ * 200 - 650 像素之间
+ */
+@media screen and (min-width: 200px) and (max-device-width: 640px) {
+  * {
+    background: orange;
+  }
+  .left-nav {
+    width: 100%;
+    height: 80px;
+    background: pink;
+  }
+}
+@media screen and (min-width: 640px) and (max-device-width: 2000px) {
+  /**
+ * PC端样式
+ */
+  #root {
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+  }
+  #root .app {
+    width: 100%;
+    height: 100%;
+  }
+  .login {
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+  .login .login-container {
+    width: 400px;
+    height: 144px;
+    position: absolute;
+    top: calc(50% - 72px);
+    left: calc(50% - 200px);
+  }
+  .login .login-container .login-button {
+    width: 100%;
+  }
+  .home .home-nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .update-user .update-user-container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+}
+/*# sourceMappingURL=index.css.map */
